@@ -74,7 +74,7 @@ pinmapper-site/
 - Hero screenshot
 - App Store download button
 - Navigation to legal pages
-- "Made with ❤️ in Long Island, NY" footer
+- "Made with ❤️ in New York" footer
 
 ### Privacy Policy (`privacy.html`)
 - Comprehensive data handling information
@@ -84,7 +84,7 @@ pinmapper-site/
 
 ### Terms of Service (`terms.html`)
 - Detailed service terms
-- Subscription information ($3.99/month, $29.99/year)
+- Subscription information ($19.99 lifetime, $19.99/year, $3.99/month)
 - User responsibilities and rights
 - Legal compliance information
 
@@ -117,10 +117,10 @@ This is a private repository for the official PinMapper website. For bug reports
 
 ## 📊 Updates
 
-- **Latest Update**: Enhanced UI with official App Store button
-- **Version**: 1.0
-- **Last Modified**: September 2025
+- **Latest Update**: Gold 1.1 branding, Places I've Been copy, $19.99 yearly
+- **Version**: 1.1
+- **Last Modified**: September 2026
 
 ---
 
-Made with ❤️ in Long Island, NY
+Made with ❤️ in New York
