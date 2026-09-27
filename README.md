@@ -98,7 +98,7 @@ pinmapper-site/
 
 ## 📱 App Store
 
-Download PinMapper on the App Store: [https://apps.apple.com/us/app/pinmapper/id6752612645](https://apps.apple.com/us/app/pinmapper/id6752612645)
+Download PinMapper on the App Store: [https://apps.apple.com/app/apple-store/id6752612645?pt=119682798&ct=landing_page&mt=8](https://apps.apple.com/app/apple-store/id6752612645?pt=119682798&ct=landing_page&mt=8)
 
 ## 🏢 Company
 
