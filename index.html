@@ -3,133 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PinMapper — Places I've Been</title>
-  <meta name="description" content="Drop pins for every city, trip, and favorite spot. Your travels, on one map.">
+  <title>PinMapper has moved</title>
+  <meta name="description" content="PinMapper has moved to Everpin.">
+  <meta http-equiv="refresh" content="0; url=https://everpinmap.com">
+  <link rel="canonical" href="https://everpinmap.com">
+  <meta name="robots" content="noindex">
   <link rel="icon" href="assets/main_icon.png">
+  <script>location.replace("https://everpinmap.com");</script>
   <style>
-    :root {
-      --gold: #FFD046;
-      --champagne: #FFE68C;
-      --amber: #ECA82A;
-      --bg: #050505;
-      --text: #f5f5f5;
-      --muted: rgba(255,255,255,0.58);
-    }
-    * { box-sizing: border-box; }
+    :root { --gold: #FFD046; --bg: #050505; --muted: rgba(255,255,255,0.58); }
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      text-align: center;
       background: radial-gradient(1200px 600px at 50% -10%, #1a1508 0%, var(--bg) 55%);
-      color: var(--text);
+      color: #f5f5f5;
       margin: 0;
-      padding: 36px 20px 48px;
-    }
-    .icon {
-      width: 120px;
-      height: 120px;
-      border-radius: 26px;
-      box-shadow: 0 12px 40px rgba(236, 168, 42, 0.28);
-    }
-    h1 {
-      font-size: 3em;
-      font-weight: 700;
-      margin: 22px 0 8px;
-      letter-spacing: -1px;
-    }
-    .subtitle {
-      font-size: 1.25em;
-      color: var(--gold);
-      margin: 0 0 10px;
-      font-weight: 500;
-    }
-    .lede {
-      max-width: 420px;
-      margin: 0 auto 28px;
-      color: var(--muted);
-      line-height: 1.5;
-    }
-    img { max-width: 300px; }
-    .screenshot {
-      max-width: 250px;
-      margin: 8px 0 28px;
-      border-radius: 28px;
-      box-shadow: 0 18px 50px rgba(0,0,0,0.45);
-    }
-    .download-button { margin: 8px 0 28px; }
-    .app-store-button { display: inline-block; transition: transform 0.3s ease, opacity 0.3s ease; }
-    .app-store-button:hover { transform: translateY(-2px); opacity: 0.9; }
-    .app-store-img {
-      height: 60px;
-      width: auto;
-      border-radius: 0 !important;
-      max-width: none !important;
-    }
-    .features {
+      min-height: 100vh;
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 14px;
-      max-width: 720px;
-      margin: 0 auto 36px;
-      text-align: left;
+      place-items: center;
+      text-align: center;
+      padding: 24px;
     }
-    .feature {
-      background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(255,214,70,0.16);
-      border-radius: 16px;
-      padding: 16px 18px;
+    h1 { font-size: 2em; margin: 0 0 10px; letter-spacing: -0.5px; }
+    p { color: var(--muted); margin: 0 0 22px; line-height: 1.5; }
+    a {
+      color: #050505;
+      background: var(--gold);
+      text-decoration: none;
+      font-weight: 600;
+      padding: 12px 20px;
+      border-radius: 999px;
+      display: inline-block;
     }
-    .feature h3 {
-      margin: 0 0 6px;
-      font-size: 15px;
-      color: var(--champagne);
-    }
-    .feature p {
-      margin: 0;
-      font-size: 13px;
-      color: var(--muted);
-      line-height: 1.45;
-    }
-    nav a { margin: 0 10px; text-decoration: none; color: var(--muted); }
-    nav a:hover { color: var(--gold); }
-    .slogan { margin-top: 36px; color: var(--muted); font-style: italic; font-size: 14px; }
   </style>
 </head>
 <body>
-  <img src="assets/main_icon.png" alt="PinMapper app icon" class="icon" width="120" height="120">
-  <h1>PinMapper</h1>
-  <p class="subtitle">Places I've Been</p>
-  <p class="lede">Drop pins for every city, trip, and favorite spot. Your travels, on one map.</p>
-  <img src="assets/IMG_0692.PNG" alt="PinMapper globe map" class="screenshot">
-
-  <div class="download-button">
-    <a href="https://apps.apple.com/app/apple-store/id6752612645?pt=119682798&ct=landing_page&mt=8" class="app-store-button">
-      <img src="assets/apple_download.png" alt="Download on the App Store" class="app-store-img">
-    </a>
-  </div>
-
-  <div class="features">
-    <div class="feature">
-      <h3>Photos on a Map</h3>
-      <p>Import geotagged photos and turn them into a visual travel journal.</p>
-    </div>
-    <div class="feature">
-      <h3>Hold to Drop a Pin</h3>
-      <p>Press and hold anywhere on the map to mark a place the moment you are there.</p>
-    </div>
-    <div class="feature">
-      <h3>See Your World</h3>
-      <p>Organize with categories, spin the globe, and watch your stats grow.</p>
-    </div>
-    <div class="feature">
-      <h3>Your Map Stays Yours</h3>
-      <p>Pins live on your iPhone. Photos stay in your library. No PinMapper account, and we don’t sell your data.</p>
-    </div>
-  </div>
-
-  <nav>
-    <a href="privacy.html">Privacy Policy</a> |
-    <a href="terms.html">Terms of Service</a>
-  </nav>
-  <div class="slogan">Made with ❤️ in New York</div>
+  <main>
+    <h1>PinMapper has moved</h1>
+    <p>This app is shutting down. Continue at Everpin.</p>
+    <a href="https://everpinmap.com">Go to everpinmap.com</a>
+  </main>
 </body>
 </html>
